@@ -1,0 +1,7 @@
+rag/venv/
+rag/db/
+rag/models/
+vs_modding_wiki/
+eval/results/*.json
+__pycache__/
+*.log

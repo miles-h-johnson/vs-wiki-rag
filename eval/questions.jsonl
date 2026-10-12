@@ -1,0 +1,40 @@
+{"q": "How do I send a custom packet from the server to the client?", "expected": ["Code/Network_API.md"]}
+{"q": "How do I patch a vanilla game method at runtime with Harmony?", "expected": ["Code/Monkey_patching.md"]}
+{"q": "Where do I declare my mod's id, version and dependencies?", "expected": ["Basics/Modinfo.md"]}
+{"q": "How do I store custom data attached to a chunk?", "expected": ["Code/Chunk_Moddata.md"]}
+{"q": "How do I save my mod's data with the world so it survives a restart?", "expected": ["Code/SaveGame_ModData.md"]}
+{"q": "How do I add a config file that server owners can edit?", "expected": ["Code/ModConfig.md"]}
+{"q": "How do I register a new chat command?", "expected": ["Code/Commands.md", "Engine/WorldGen_API.md", "Code/SaveGame_ModData.md"], "note": "widened after first run: these pages also answer it"}
+{"q": "How do I make a block entity run code every second?", "expected": ["Code/Block_Entity.md"]}
+{"q": "How do I change a property of a vanilla block without replacing its JSON file?", "expected": ["Content/JSON_Patching.md", "AssetTypes/Asset_Type_-_Patches.md"]}
+{"q": "Can I modify assets from C# code instead of with JSON patches?", "expected": ["Code/Asset_Patching_in_Code.md"]}
+{"q": "How do I define a recipe that is made on the anvil?", "expected": ["AssetTypes/Asset_Type_-_Recipes_(Smithing).md"]}
+{"q": "How do I add a new metal alloy and its ratios?", "expected": ["AssetTypes/Asset_Type_-_Recipes_(Alloy).md"]}
+{"q": "How do recipes that require sealing ingredients in a barrel for some hours work?", "expected": ["AssetTypes/Asset_Type_-_Recipes_(Barrel).md"]}
+{"q": "How do I add a stone tool recipe that players knap?", "expected": ["AssetTypes/Asset_Type_-_Recipes_(Knapping).md"]}
+{"q": "How do I make a shaped crafting recipe in the 3x3 grid?", "expected": ["AssetTypes/Asset_Type_-_Recipes_(Grid).md", "Content/Grid_Recipes_Guide.md", "Content/Content_Tutorial_Simple_Recipe.md", "Content/Content_Tutorial_Complex_Grid_Recipes.md"]}
+{"q": "How do I create several versions of one block, for example one per wood type?", "expected": ["Content/Variants.md", "Content/Content_Tutorial_Block_Variants.md"]}
+{"q": "How do I add translated display names for my items?", "expected": ["AssetTypes/Asset_Type_-_Language.md", "Content/Content_Tutorial_Simple_Item.md", "Content/Content_Tutorial_Simple_Block.md"], "note": "widened after first run: these pages also answer it"}
+{"q": "What command line arguments does the dedicated server accept?", "expected": ["Other/Server_startup_parameters.md"]}
+{"q": "How do I make the game client load mods from an extra folder?", "expected": ["Other/Client_startup_parameters.md"]}
+{"q": "How do I set up an IDE and project template for writing a code mod?", "expected": ["Code/Setting_up_your_Development_Environment.md", "Code/Preparing_For_Code_Mods.md", "Code/Creating_A_Code_Mod.md"]}
+{"q": "Which parts of my code run on the server and which on the client?", "expected": ["Code/Server-Client_Considerations.md"]}
+{"q": "How do I spawn particles from code?", "expected": ["Code/Simple_Particles.md"]}
+{"q": "How do I read and replace blocks in the world from code?", "expected": ["Code/World_Access.md"]}
+{"q": "How do I open a custom dialog window for the player?", "expected": ["Code/GUIs.md"]}
+{"q": "How do I give an entity behaviors such as health or AI tasks in its JSON?", "expected": ["Content/Entity_Behaviors.md", "AssetTypes/Entity_Json_Properties.md"]}
+{"q": "How can one block definition reuse the properties of another?", "expected": ["Content/InheritFrom.md"]}
+{"q": "My world shows missing blocks after I renamed block codes. How do I fix it?", "expected": ["Troubleshooting/The_Remapper.md"]}
+{"q": "How do I find out what in my mod is causing lag?", "expected": ["Troubleshooting/Debugging_Performance_Issues.md"]}
+{"q": "How do I add colours, links or icons to in-game text?", "expected": ["Other/VTML.md"]}
+{"q": "How do I animate a model I made?", "expected": ["Content/Animation.md", "ModelCreator/VS_Model_Creator_Animation_Intermediate.md"]}
+{"q": "How do avg and var describe a random value in JSON?", "expected": ["Code/NatFloat.md", "Content/JSON_Values.md"]}
+{"q": "How do I add a new kind of tree to world generation?", "expected": ["Content/Trees.md"]}
+{"q": "How do I store nested key-value data on an item stack?", "expected": ["Code/TreeAttribute.md"]}
+{"q": "How do I package my mod as a zip for release?", "expected": ["Basics/Mod_Packaging.md"]}
+{"q": "How do I let other mods call into my mod's API?", "expected": ["Code/Moddable_Mod.md"]}
+{"q": "How do I handle a player right-clicking with my item?", "expected": ["Code/Block_and_Item_Interactions.md"]}
+{"q": "How do I register a custom block behavior class in code?", "expected": ["Code/Adding_Block_Behavior.md"]}
+{"q": "How do cooking pot recipes work?", "expected": ["AssetTypes/Asset_Type_-_Recipes_(Cooking).md"]}
+{"q": "How do I export a building and have it generate in the world?", "expected": ["Content/Schematics.md", "Content/Content_Tutorial_Simple_Worldgen.md"]}
+{"q": "How do I make a pack that changes the game's textures and menu theme?", "expected": ["Content/Theme_Pack.md"]}
